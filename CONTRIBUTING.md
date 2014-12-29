@@ -14,7 +14,7 @@ Contributing to `proxy-example` is easy. In a few simple steps:
   * Adhere to code style outlined in the [Google C++ Style Guide][] and
     [Google Javascript Style Guide][].
 
-  * Sign the [Contributor License Agreement](https://cla.strongloop.com/strongloop/loopback-example-proxy)
+  * Sign the [Contributor License Agreement](https://cla.strongloop.com/agreements/strongloop/loopback-example-proxy)
 
   * Submit a pull request through Github.
 
