@@ -18,15 +18,17 @@ node app
 
 ## How to build the Proxy example app:
 
-### 0. Make sure you have `slc` version **>= 2.1.0**.
+### Prerequisite
+
+Update your installation.  You need at least `strongloop` version 2.1.0.
 
 To install the latest version of `slc`:
 
 ```sh
-npm install strong-cli -g
+npm install -g strongloop 
 ```
 
-To check your version of `slc`:
+To check your version:
 
 ```sh
 slc version
@@ -35,15 +37,16 @@ slc version
 Should print something similar to:
 
 ```
-slc v2.1.0 (node v0.10.22)
+strongloop v3.0.4 (node v0.10.36)
+...
 ```
 
-### 1. Create the application using the `slc` command line tool.
+### Create the application using the `slc` command line tool.
 
 ```sh
 slc lb project proxy-example
 ```
 
-### 2. Create a proxy middleware.
+### Create a proxy middleware.
 
 See `middleware/proxy.js`.
